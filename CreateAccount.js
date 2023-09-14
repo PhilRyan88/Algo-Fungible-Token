@@ -22,7 +22,6 @@ async function createAccountAndExport() {
   await keypress();
 
   // Convert the private key to base64 string
-  const privateKeyBase64 = Buffer.from(generatedAccount.sk).toString("base64");
 
   // Export the account details as JSON
   const accountData = {
