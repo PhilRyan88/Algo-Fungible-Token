@@ -57,8 +57,6 @@ async function deployToken() {
   console.log(`Asset ID created: ${assetIndex}`);
 
   // Display AlgoExplorer URL
-  const url = `https://testnet.algoexplorer.io/asset/${assetIndex}`;
-  console.log(`Asset URL: ${url}`);
 
   // End the console
   process.exit();
