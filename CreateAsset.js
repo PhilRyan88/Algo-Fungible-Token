@@ -29,8 +29,8 @@ async function deployToken() {
     from: address,
     suggestedParams,
     defaultFrozen: false,
-    unitName: "Pepe", // Symbol
-    assetName: "Pepe Coin", // Name of the asset
+    unitName: "Smurf", // Symbol
+    assetName: "Smurf Coin", // Name of the asset
     manager: address,
     reserve: address,
     freeze: address,
